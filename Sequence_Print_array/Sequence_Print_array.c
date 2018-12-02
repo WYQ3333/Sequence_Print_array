@@ -45,8 +45,8 @@ int main()
 	int array[4][4] = {
 		{ 1, 2, 3, 4 },
 		{ 5, 6, 7, 8 },
-		{ 9, 10, 11, 12 }
-	};
+		{ 9, 10, 11, 12 },
+		{ 13, 14, 15, 16 } };
 	Sequence_Print_array(array);
 	system("pause");
 	return 0;
