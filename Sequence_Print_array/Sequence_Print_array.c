@@ -112,7 +112,6 @@ int main()
 		{ 1, 2, 3 },
 		{ 4, 5, 6 },
 		{ 7, 8, 9 } };
-
 	Sequence_Print_array(array, 3, 3);
 	system("pause");
 	return 0;
