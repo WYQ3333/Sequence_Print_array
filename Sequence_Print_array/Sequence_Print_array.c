@@ -24,14 +24,14 @@ void Sequence_Print_array(int array[4][4])
 		}
 		col_r--;
 		i--;
-		for (j = col_r; j >= col_l; j--)//打印最下面一行
+		for (j = col_r-1; j >= col_l; j--)//打印最下面一行
 		{
 			printf("%d ", array[i][j]);
 			count++;
 		}
 		row_r--;
 		j++;
-		for (i = row_r; i >= row_l; i--)//打印最左边第一列
+		for (i = row_r-1; i >= row_l; i--)//打印最左边第一列
 		{
 			printf("%d ", array[i][j]);
 			count++;
